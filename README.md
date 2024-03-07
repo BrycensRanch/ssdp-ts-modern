@@ -7,6 +7,9 @@
 ## Note to future self
 
 - Use Rollup
+- Use vitest test runner
+- Generate coverage reports
+- Upgrade every dependency
 - Use axios/ky if possible
 - Make api more async
 - Add timeouts for service discovery
