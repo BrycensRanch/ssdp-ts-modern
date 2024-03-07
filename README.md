@@ -4,10 +4,19 @@
 [![NPM version](https://badge.fury.io/js/node-ssdp.svg)](http://badge.fury.io/js/node-ssdp)
 [![Stories in Ready](https://badge.waffle.io/diversario/node-ssdp.png?label=ready&title=Ready)](https://waffle.io/diversario/node-ssdp)
 
+## Note to future self
+
+- Use Rollup
+- Use axios/ky if possible
+- Make api more async
+- Add timeouts for service discovery
+- Upgrade dependencies and use pnpm and GitHub Actions and prettier and husky and other developer tooling from AuthIsForMe repo
+- Semantic commits only for now on
+
 ## Installation
 
 ```sh
-npm install ssdp-ts
+pnpm add ssdp-ts-modern
 ```
 
 There is another package called `ssdp` which is the original unmaintained version. Make sure to install `node-ssdp` instead.
